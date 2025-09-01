@@ -38,24 +38,43 @@ KMX Kanban is optimized for working with AI assistants:
 
 ## Installation
 
-1. **Download the Binary**
-   ```bash
-   # Download from GitHub Releases
-   wget https://github.com/kmxsoftware/kmxkanban-builds/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
-   
-   # Make executable
-   chmod +x kmxkanban-v1.0.0-linux-amd64
-   ```
+### Linux
 
-2. **Run the Application**
-   ```bash
-   ./kmxkanban-v1.0.0-linux-amd64
-   ```
+```bash
+# Download from GitHub Releases
+wget https://github.com/kmxsoftware/kmxkanban-builds/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
 
-3. **Initial Setup**
-   - Enter your license key when prompted
-   - Set up application password
-   - Create your first project
+# Make executable
+chmod +x kmxkanban-v1.0.0-linux-amd64
+
+# Run the application
+./kmxkanban-v1.0.0-linux-amd64
+```
+
+### Windows
+
+Run inside WSL (Windows Subsystem for Linux):
+
+```bash
+# Download from GitHub Releases
+wget https://github.com/kmxsoftware/kmxkanban-builds/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
+
+# Make executable
+chmod +x kmxkanban-v1.0.0-linux-amd64
+
+# Run the application
+./kmxkanban-v1.0.0-linux-amd64
+```
+
+### macOS
+
+Coming soon.
+
+### Initial Setup
+
+- Enter your license key when prompted
+- Set up application password
+- Create your first project
 
 ## Usage
 
