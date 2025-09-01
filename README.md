@@ -42,7 +42,7 @@ KMX Kanban is optimized for working with AI assistants:
 
 ```bash
 # Download from GitHub Releases
-wget https://github.com/kmxsoftware/kmxkanban-builds/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
+wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.0-linux-amd64
@@ -57,7 +57,7 @@ Run inside WSL (Windows Subsystem for Linux):
 
 ```bash
 # Download from GitHub Releases
-wget https://github.com/kmxsoftware/kmxkanban-builds/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
+wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.0-linux-amd64
