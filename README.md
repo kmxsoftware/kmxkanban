@@ -45,9 +45,15 @@ KMX Kanban is optimized for working with AI assistants:
 First, install required dependencies:
 
 ```bash
-# Ubuntu/Debian
+# Ubuntu/Debian (22.04 and older)
 sudo apt update
 sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4
+
+# Ubuntu/Debian (24.04 and newer) - Install compatibility package
+sudo apt update
+sudo apt install libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4
+# Create symbolic link for compatibility
+sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
 
 # Fedora
 sudo dnf install gtk3 webkit2gtk3 libnotify

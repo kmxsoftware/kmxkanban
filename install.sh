@@ -27,7 +27,23 @@ case $OS in
     ubuntu|debian|linuxmint|pop)
         echo "Detected: $OS"
         sudo apt update
-        sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 wget
+        
+        # Check Ubuntu version and install appropriate webkit version
+        if [[ "$OS" == "ubuntu" && "${VER%%.*}" -ge 24 ]]; then
+            echo "Ubuntu 24.04+ detected, installing webkit 4.1 with compatibility link"
+            sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 wget
+            # Create symbolic link for backward compatibility
+            sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
+        else
+            # Try to install 4.0 first, fallback to 4.1 with symlink if needed
+            if sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 wget 2>/dev/null; then
+                echo "WebKit 4.0 installed"
+            else
+                echo "WebKit 4.0 not available, installing 4.1 with compatibility link"
+                sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 wget
+                sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
+            fi
+        fi
         ;;
     
     fedora|rhel|centos)
