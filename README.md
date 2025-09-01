@@ -40,6 +40,24 @@ KMX Kanban is optimized for working with AI assistants:
 
 ### Linux
 
+#### Prerequisites
+
+First, install required dependencies:
+
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4
+
+# Fedora
+sudo dnf install gtk3 webkit2gtk3 libnotify
+
+# Arch Linux
+sudo pacman -S gtk3 webkit2gtk libnotify
+```
+
+#### Installation
+
 ```bash
 # Download from GitHub Releases
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
@@ -55,6 +73,16 @@ chmod +x kmxkanban-v1.0.0-linux-amd64
 
 Run inside WSL (Windows Subsystem for Linux):
 
+#### Prerequisites
+
+```bash
+# Install required dependencies in WSL
+sudo apt update
+sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4
+```
+
+#### Installation
+
 ```bash
 # Download from GitHub Releases
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.0/kmxkanban-v1.0.0-linux-amd64
@@ -65,6 +93,8 @@ chmod +x kmxkanban-v1.0.0-linux-amd64
 # Run the application
 ./kmxkanban-v1.0.0-linux-amd64
 ```
+
+**Note**: For GUI support in WSL, you need WSL2 with WSLg (Windows 11) or an X server (Windows 10).
 
 ### macOS
 
