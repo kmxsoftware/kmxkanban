@@ -2,7 +2,13 @@
 kmxkanban-*
 !*.md
 !*.txt
-!*.sh
+
+# Scripts (local use only)
+create-release.sh
+validate-local.sh
+
+# Templates (local use only)
+RELEASE_TEMPLATE.md
 
 # Compressed files
 *.tar.gz
