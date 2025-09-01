@@ -1,0 +1,31 @@
+# Binary files
+kmxkanban-*
+!*.md
+!*.txt
+!*.sh
+
+# Compressed files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+*.log
