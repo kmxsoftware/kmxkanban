@@ -9,6 +9,8 @@ validate-local.sh
 
 # Templates (local use only)
 RELEASE_TEMPLATE.md
+release-prompt.md
+.release-prompt.md.swp
 
 # Compressed files
 *.tar.gz
