@@ -54,7 +54,8 @@ KMX Kanban is optimized for working with AI assistants:
 ```bash
 # Install required dependencies
 sudo apt update
-sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4
+sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
+    libnss3 libnspr4 libnssutil3 libsmime3
 
 # Download KMX Kanban for Ubuntu 22.04
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.3/kmxkanban-v1.0.3-linux-ubuntu2204-amd64
@@ -71,7 +72,8 @@ chmod +x kmxkanban-v1.0.3-linux-ubuntu2204-amd64
 ```bash
 # Install required dependencies
 sudo apt update
-sudo apt install libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4
+sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
+    libnss3 libnspr4 libnssutil3 libsmime3
 
 # Create compatibility link for WebKit
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
@@ -95,7 +97,8 @@ Run inside WSL2 (Windows Subsystem for Linux):
 ```bash
 # Install required dependencies
 sudo apt update
-sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4
+sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
+    libnss3 libnspr4 libnssutil3 libsmime3
 
 # Download KMX Kanban for WSL2 Ubuntu 22.04
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.3/kmxkanban-v1.0.3-linux-ubuntu2204-amd64
@@ -112,7 +115,8 @@ chmod +x kmxkanban-v1.0.3-linux-ubuntu2204-amd64
 ```bash
 # Install required dependencies
 sudo apt update
-sudo apt install libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4
+sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
+    libnss3 libnspr4 libnssutil3 libsmime3
 
 # Create compatibility link for WebKit
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
