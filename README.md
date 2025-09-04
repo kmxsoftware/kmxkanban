@@ -55,7 +55,10 @@ KMX Kanban is optimized for working with AI assistants:
 # Install required dependencies
 sudo apt update
 sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
-    libnss3 libnspr4 libnssutil3 libsmime3
+    libnss3 libnspr4 libnssutil3 libsmime3 libatk1.0-0 libatk-bridge2.0-0 \
+    libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+    libxrandr2 libgbm1 libasound2 libatspi2.0-0 libpango-1.0-0 libcairo2 \
+    libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Download KMX Kanban for Ubuntu 22.04
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.5/kmxkanban-v1.0.5-linux-ubuntu2204-amd64
@@ -73,7 +76,10 @@ chmod +x kmxkanban-v1.0.5-linux-ubuntu2204-amd64
 # Install required dependencies
 sudo apt update
 sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
-    libnss3 libnspr4 libnssutil3 libsmime3
+    libnss3 libnspr4 libnssutil3 libsmime3 libatk1.0-0 libatk-bridge2.0-0 \
+    libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+    libxrandr2 libgbm1 libasound2 libatspi2.0-0 libpango-1.0-0 libcairo2 \
+    libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Create compatibility link for WebKit
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
@@ -98,7 +104,10 @@ Run inside WSL2 (Windows Subsystem for Linux):
 # Install required dependencies
 sudo apt update
 sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
-    libnss3 libnspr4 libnssutil3 libsmime3
+    libnss3 libnspr4 libnssutil3 libsmime3 libatk1.0-0 libatk-bridge2.0-0 \
+    libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+    libxrandr2 libgbm1 libasound2 libatspi2.0-0 libpango-1.0-0 libcairo2 \
+    libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Download KMX Kanban for WSL2 Ubuntu 22.04
 wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.5/kmxkanban-v1.0.5-linux-ubuntu2204-amd64
@@ -116,7 +125,10 @@ chmod +x kmxkanban-v1.0.5-linux-ubuntu2204-amd64
 # Install required dependencies
 sudo apt update
 sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
-    libnss3 libnspr4 libnssutil3 libsmime3
+    libnss3 libnspr4 libnssutil3 libsmime3 libatk1.0-0 libatk-bridge2.0-0 \
+    libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+    libxrandr2 libgbm1 libasound2 libatspi2.0-0 libpango-1.0-0 libcairo2 \
+    libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Create compatibility link for WebKit
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
