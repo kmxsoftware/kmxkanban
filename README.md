@@ -12,9 +12,10 @@ KMX Kanban is a desktop application that combines project management with develo
 
 ## Key Features
 
+- **🌐 Remote Programming** - Access on your laptop, code on your PC - work from anywhere
+- **📱 Tablet & Mobile Version** - Keep coding while you're not at the PC
 - **Kanban Board** - Visual task management with drag-and-drop
-- **Easy Remote Programming** - Programming remotely on a PC using laptop or mobile device
-- **LOCAL based** - everything is happening on your local machine, no cloud = no security issues = safe codebase
+- **LOCAL based** - Everything happens on your local machine, no cloud = no security issues = safe codebase
 - **Agents Manager** - create your AI team easily, train them in specialized tasks
 - **Talk to AI** - option to talk to the AI engine instead of typing
 - **Prompt Manager** - prepend or append text to every prompt, save favourites prompts
