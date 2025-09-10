@@ -62,7 +62,9 @@ sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
     libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Download KMX Kanban for Ubuntu 22.04
-wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
+wget -c https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
+# Or use curl:
+# curl -L -C - -o kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64 https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
@@ -86,7 +88,9 @@ sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
 
 # Download KMX Kanban for Ubuntu 24.04
-wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
+wget -c https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
+# Or use curl:
+# curl -L -C - -o kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64 https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
@@ -111,7 +115,9 @@ sudo apt install -y libgtk-3-0 libwebkit2gtk-4.0-37 libnotify4 \
     libxshmfence1 libglib2.0-0 fonts-liberation xdg-utils
 
 # Download KMX Kanban for WSL2 Ubuntu 22.04
-wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
+wget -c https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
+# Or use curl:
+# curl -L -C - -o kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64 https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.10beta-linux-ubuntu2204-amd64
@@ -135,7 +141,9 @@ sudo apt install -y libgtk-3-0 libwebkit2gtk-4.1-0 libnotify4 \
 sudo ln -sf /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.1.so.0 /usr/lib/x86_64-linux-gnu/libwebkit2gtk-4.0.so.37
 
 # Download KMX Kanban for WSL2 Ubuntu 24.04
-wget https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
+wget -c https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
+# Or use curl:
+# curl -L -C - -o kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64 https://github.com/kmxsoftware/kmxkanban/releases/download/v1.0.10beta/kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
 
 # Make executable
 chmod +x kmxkanban-v1.0.10beta-linux-ubuntu2404-amd64
