@@ -5,6 +5,26 @@ All notable changes to KMX Kanban will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2025-01-12
+
+### Fixed
+- **Category Display** - Task cards now display category names instead of IDs for better readability
+- **Project Creation** - Added automatic cleanup of failed project creation folders
+- **MCP Integration** - Fixed MCP category handling to use category names instead of IDs
+- **Text Handling** - Improved text sanitization to preserve emojis and icons while preventing database encoding issues
+- **Database Stability** - Fixed database encoding issues with proper date handling and text sanitization
+- **MCP Setup** - Fixed workdir resolution utility for MCP setup
+
+### Improved
+- **UI Cleanup** - Removed unnecessary warning messages about high resource usage
+- **Button Styles** - Normalized cleanup button colors and removed pulsing animations
+- **Performance** - Cleaned up duplicate high resource usage indicators
+
+### Documentation
+- Corrected port configuration instructions for built version
+- Updated database location documentation
+- Fixed terminal port documentation to show it's configurable
+
 ## [1.1.0] - 2025-01-12
 
 ### Added

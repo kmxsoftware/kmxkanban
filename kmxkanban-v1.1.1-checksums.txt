@@ -1,0 +1,2 @@
+e31e72b4d2c5ff8306c4bc9d59e46f30d9be0e521140946a1dff25ba85a322bf  kmxkanban-v1.1.1-linux-ubuntu2404-amd64
+2260efbdfe52a5a5a2711b17039d5b53572f8a88971ffd26c9eb3b2b9da5d27e  kmxkanban-v1.1.1-linux-ubuntu2204-amd64
